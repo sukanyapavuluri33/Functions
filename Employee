@@ -1,0 +1,36 @@
+package abc;
+import java.util.Scanner;
+
+public class Employee {
+	static String na,ad;
+	static int year,salary;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Name  "+ "    Year of joining  "+ "     Salary  "+ "   Address ");
+		fun(na,ad,year,salary);
+			
+		}
+	static void fun(String n,String a,int y,int s) {
+		n="Robert";
+		a="64C-WallsStreet";
+		y=1994;
+		s=30000;
+		System.out.println(n+"\t\t"+y+"\t\t"+s+"\t"+a);
+		n="Sam";
+		a="68D-WallsStreet";
+		y=2000;
+		s=35000;
+		System.out.println(n+"\t\t"+y+"\t\t"+s+"\t"+a);
+		n="John";
+		a="26B-WallsStreet";
+		y=1999;
+		s=40000;
+		System.out.println(n+"\t\t"+y+"\t\t"+s+"\t"+a);
+		
+		
+		
+
+	}
+
+}
